@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marine Life Charity</title>
+</head>
+<body>
+
+<h1>Sea Animals Charity Campaign</h1>
+<p>Come, join and support our mission to protect and conserve sea animals. By signing up, you help us in:</p>
+    <ul>
+        <li>Rescuing and rehabilitating injured marine life.</li>
+        <li>Fighting ocean pollution and plastic waste.</li>
+        <li>Advocating for marine conservation laws and policies.</li>
+    </ul>
+
+    <form id="charityForm" action="/action_page.php" method="post">
+        
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required> <br><br>
+
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+
+        <label>Sex:</label>
+        <div class="radio-group">
+            <input type="radio" id="male" name="sex" value="Male" required>
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="sex" value="Female" required>
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="preferNotToSay" name="sex" value="Prefer not to say" required>
+            <label for="preferNotToSay">Prefer not to say</label>
+        </div>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+
+        <label for="contact">Contact Number (Optional):</label>
+        <input type="text" id="contact" name="contact"><br><br>
+
+
+        <button type="submit" class="submit-btn">Submit</button>
+        <button type="reset" class="reset-btn">Reset</button>
+        
+    </form>
+
+</body>
+</html>
+
+
